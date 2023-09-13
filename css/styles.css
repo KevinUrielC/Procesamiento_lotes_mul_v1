@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900");
+html{
+    line-height:1.15;
+    -webkit-text-size-adjust:100%
+}
+
+header{
+    background-color: rgba(53, 27, 100);
+    padding: 1rem 0 3rem 0;
+    text-align: center;
+}
+
+body{
+    margin: 0; 
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(70, 20, 161);
+}
+/*--------------------------------------------*/
+/*Modifica el los textos (etiquetas), excepto las de ID, NOMBRE, TIEMPO ESTIMADO, OPERADOR*/
+h1, p, span{
+    text-align: left;
+    color: rgb(216, 208, 208);
+}
+
+h2{
+    text-align: center;
+    color: rgb(216, 208, 208);
+}
+/*------------------------------------------------------------------*/
+span{
+    font-weight: 900;
+}
+
+.Nproceso{
+    width: 95%;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+/* Con esto se puede modificar las entradas (espacios en blanco)*/
+.formulario input:not([type="submit"]){
+    padding: .5rem;
+    display: block;
+    width: 99%;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: .5rem;
+}
+
+.formulario{
+    color: rgb(216, 208, 208);
+}
+
+.formulario legend{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.formulario label{
+    margin-top: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block;
+}
+/*----------------------------------*/
+/* Esta es mi versión de lo anterior*/
+.formulario2{
+    color: rgb(216, 208, 208);
+}
+
+.formulario2 legend{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.formulario2 label{
+    margin-right: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block;
+}
+
+/* Esta es mi versión de lo anterior*/
+.formulario2 input:not([type="submit"]){
+    padding: .5rem;
+    display: block;
+    width: 10%;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: .5rem;
+}
+/*------------------------------------------------------*/
+
+
+.boton{
+    background-color: rgba(73, 140, 218, 0.87);
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 1rem 3rem;
+    text-align: center;
+    margin-top: .5rem;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+}
+
+.boton:hover{
+    background-color: rgba(224, 100, 197, 0.87);
+}
+
+/*Función para desplegar la parte de Proceso*/
+.contenedor{
+    display:grid;
+    gap: 3rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.tabla {
+    border: 2px solid purple;
+    width: 80%;
+    border-spacing: 0;
+    margin: 0 auto;
+    color: white;
+}
+
+.tabla thead{
+    background-color: rgba(12, 0, 32, 0.87);
+}
+
+.tabla td{
+    margin-left: 1rem;
+    text-align: center; 
+}
+
+.ttotal{
+    
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.alerta{
+    width: auto;
+    background-color: rgb(53, 10, 175);
+}
+footer{ 
+    padding: 1rem 0 3rem 0;
+    background-color: rgb(53, 10, 153);
+}
+
+.formulario2f{
+    padding: 0.35em 0.75em 0.625em;
+    border: 2px solid rgb(255, 255, 255);
+    width: 300px;
+}
+
+.formulario2e{
+    padding: 0.35em 0.75em 0.625em;
+    border: 2px solid rgb(255, 255, 255);
+    width: 500px;
+}
